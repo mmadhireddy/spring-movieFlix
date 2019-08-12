@@ -34,9 +34,9 @@ public class JPAConfig {
 	public DataSource dataSource() {
 		DriverManagerDataSource ds = new DriverManagerDataSource();
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
-		ds.setUrl("jdbc:mysql://localhost:3306/movieFlixDB?useSSL=false");
+		ds.setUrl("jdbc:mysql://movieflixdb.cav0nphcxq2d.us-east-2.rds.amazonaws.com:3306/movieFlixdb?useSSL=false");
 		ds.setUsername("root");
-		ds.setPassword("root");
+		ds.setPassword("rootroot");
 		return ds;
 	}
 
